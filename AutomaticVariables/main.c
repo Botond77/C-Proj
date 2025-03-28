@@ -14,7 +14,7 @@ extern int foo_func(int lhs ,int rhs);
 int main()
 {
     multiplier = 5;
-    //multiplier2 = 5; linker error
+    // printf("Static acess : %d\n" ,multiplier2); linker error
     int res = foo_func(2,3);
     printf("Fo func res : %d\n", res);
     func_name2(); // for fun : what happens if you swap these functions? What is happening, Why ? :D
